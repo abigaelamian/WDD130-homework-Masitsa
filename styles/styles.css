@@ -25,7 +25,8 @@ p {
 main img {
     width: 100px;
     height: auto;
-    padding: 30px gray;
+    padding: 30px;
+    border: 30px solid green;
     box-shadow: 0030px gray;
 }
 
