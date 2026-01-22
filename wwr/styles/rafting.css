@@ -5,10 +5,13 @@
     --accent2-color: #f8f9fa;
 
     --heading-font: Arial, Helvetica, sans-serif;
-    --body-font: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+    background-color: var(--accent2-color);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,7 +38,7 @@ header img {
 nav a {
     margin: 0 8px;
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-weight: bold;
 }
 
@@ -103,5 +106,3 @@ footer {
     width: 32px;
     margin: 0 6px;
 }
-
-<footer > <p > © 2026 White Water Rafting Co. | Abigail Malina Masitsa</p > <nav class="socialmedia" > <a href="https://facebook.com" > <img src="images/facebook.png" alt="Facebook" > </a > <a href="https://twitter.com" > <img src="images/twitter.png" alt="Twitter" > </a > <a href="https://instagram.com" > <img src="images/instagram.png" alt="Instagram" > </a > </nav > </footer > </body > </html >
