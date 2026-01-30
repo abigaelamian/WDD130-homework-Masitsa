@@ -3,6 +3,7 @@ header {
     grid-template-columns: auto 1fr;
     align-items: center;
     background-color: #1f4d5a;
+    color: #ffff;
     padding: 1rem;
 }
 
@@ -27,7 +28,7 @@ header {
 
 body {
     font-family: var(--body-font);
-    color: var(--text);
+    color: #222;
     background-color: (#f5f5f5);
     margin: 0;
     padding: 0;
@@ -53,9 +54,13 @@ header img {
 }
 
 nav a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+}
+
+p {
+    color: #222;
 }
 
 .history-content {
@@ -65,19 +70,17 @@ nav a {
     align-items: center;
 }
 
-h1,
-h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
+h1 {
+    color: #000000;
 }
 
-nav,
-p {
-    color: black;
+h2 {
+    font-family: var(--heading-font);
+    color: #ffffff;
 }
 
 article p {
-    color: black;
+    color: #ffffff;
 }
 
 section,
@@ -102,9 +105,9 @@ article {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.9;
     background-color: var(--accent);
-    color: #fff;
+    color: #000000;
 }
 
 .hero article {
