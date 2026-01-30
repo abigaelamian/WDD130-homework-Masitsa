@@ -81,7 +81,7 @@ h1 {
 
 h2 {
     font-family: var(--heading-font);
-    color: #ffffff;
+    color: var(--primary-color);
 }
 
 article p {
